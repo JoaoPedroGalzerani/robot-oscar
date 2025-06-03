@@ -1,0 +1,13 @@
+1748908245532	geckodriver	INFO	Listening on 127.0.0.1:58556
+1748908246050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\temp\\rust_mozprofileq4LFCQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748908246479	Marionette	INFO	Marionette enabled
+1748908246619	Marionette	INFO	Listening on port 58566
+WebDriver BiDi listening on ws://127.0.0.1:58557
+Read port: 58566
+1748908246738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://front.serverest.dev."
+console.error: [Exception... "Favicon at "https://front.serverest.dev/serveresticon.png" is too large."  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource:///modules/FaviconLoader.sys.mjs :: onStopRequest :: line 326"  data: no]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://front.serverest.dev."

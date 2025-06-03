@@ -1,65 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3 (Python 3.13.0 on win32)" generated="2025-06-02T20:50:45.057432" rpa="false" schemaversion="5">
-<suite id="s1" name="Cadastro" source="c:\Users\joao.galzerani\Downloads\aulaRobot\cadastro.robot">
+<robot generator="Robot 7.3 (Python 3.13.0 on win32)" generated="2025-06-02T21:03:21.507992" rpa="false" schemaversion="5">
+<suite id="s1" name="Amazon" source="c:\Users\joao.galzerani\Downloads\aulaRobot\amazon.robot">
 <test id="s1-t1" name="Teste de cadastro" line="6">
-<kw name="abrir a pagina do serverest">
+<kw name="abrir a pagina do ebay">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-06-02T20:50:45.338736" level="INFO">Opening browser 'firefox' to base url 'https://front.serverest.dev/cadastrarusuarios'.</msg>
-<arg>https://front.serverest.dev/cadastrarusuarios</arg>
+<msg time="2025-06-02T21:03:21.780218" level="INFO">Opening browser 'firefox' to base url 'https://www.ebay.com/'.</msg>
+<arg>https://www.ebay.com/</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-06-02T20:50:45.338515" elapsed="5.447439"/>
+<status status="PASS" start="2025-06-02T21:03:21.779941" elapsed="3.557845"/>
 </kw>
-<status status="PASS" start="2025-06-02T20:50:45.337898" elapsed="5.448254"/>
+<status status="PASS" start="2025-06-02T21:03:21.779238" elapsed="3.558878"/>
 </kw>
-<kw name="inserir nome">
+<kw name="inserir um produto para pesquisar">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-06-02T20:50:50.787356" level="INFO">Typing text 'joao' into text field 'id:nome'.</msg>
-<arg>id:nome</arg>
-<arg>joao</arg>
+<msg time="2025-06-02T21:03:25.339578" level="INFO">Typing text 'quadrinho spider-man' into text field 'id:gh-ac'.</msg>
+<arg>id:gh-ac</arg>
+<arg>quadrinho spider-man</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-02T20:50:50.786993" elapsed="0.065947"/>
+<status status="PASS" start="2025-06-02T21:03:25.339128" elapsed="0.098012"/>
 </kw>
-<status status="PASS" start="2025-06-02T20:50:50.786624" elapsed="0.066487"/>
+<status status="PASS" start="2025-06-02T21:03:25.338712" elapsed="0.098603"/>
 </kw>
-<kw name="inserir email">
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-06-02T20:50:50.853941" level="INFO">Typing text 'joao@teste.com' into text field 'id:email'.</msg>
-<arg>id:email</arg>
-<arg>joao@teste.com</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-02T20:50:50.853755" elapsed="0.019974"/>
+<kw name="clicar em pesquisar">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-02T21:03:25.438433" level="INFO">Clicking element 'id:gh-search-btn'.</msg>
+<arg>id:gh-search-btn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-02T21:03:25.438126" elapsed="1.677861"/>
 </kw>
-<status status="PASS" start="2025-06-02T20:50:50.853479" elapsed="0.020463"/>
+<status status="PASS" start="2025-06-02T21:03:25.437740" elapsed="1.678482"/>
 </kw>
-<kw name="inserir senha">
-<kw name="Input Password" owner="SeleniumLibrary">
-<msg time="2025-06-02T20:50:50.874934" level="INFO">Typing password into text field 'id:password'.</msg>
-<msg time="2025-06-02T20:50:50.879219" level="INFO">Temporally setting log level to: NONE</msg>
-<arg>id:password</arg>
-<arg>40028922</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-02T20:50:50.874718" elapsed="0.014975"/>
-</kw>
-<status status="PASS" start="2025-06-02T20:50:50.874371" elapsed="0.015481"/>
-</kw>
-<kw name="clicar no botão cadastrar">
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-06-02T20:50:50.890792" level="INFO">Clicking button '//button[@type='submit']'.</msg>
-<arg>//button[@type='submit']</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-06-02T20:50:50.890552" elapsed="0.220584"/>
-</kw>
-<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<msg time="2025-06-02T20:50:51.163003" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2025-06-02T20:50:51.111360" elapsed="0.051880"/>
-</kw>
-<status status="PASS" start="2025-06-02T20:50:50.890202" elapsed="0.273143"/>
-</kw>
-<status status="PASS" start="2025-06-02T20:50:45.337234" elapsed="5.826420"/>
+<status status="PASS" start="2025-06-02T21:03:21.778611" elapsed="5.338050"/>
 </test>
-<status status="PASS" start="2025-06-02T20:50:45.061921" elapsed="6.102705"/>
+<status status="PASS" start="2025-06-02T21:03:21.512346" elapsed="5.606055"/>
 </suite>
 <statistics>
 <total>
@@ -68,7 +42,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="Cadastro" id="s1" pass="1" fail="0" skip="0">Cadastro</stat>
+<stat name="Amazon" id="s1" pass="1" fail="0" skip="0">Amazon</stat>
 </suite>
 </statistics>
 <errors>
